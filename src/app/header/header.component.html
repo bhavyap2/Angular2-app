@@ -1,0 +1,139 @@
+
+
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+  
+  
+ 
+  
+</head>
+
+
+
+<body>
+
+        <style>
+                
+                
+                .dropdown {
+                  position: relative;
+                  display: inline-block;
+                }
+                
+                .dropdown-content {
+                  display: none;
+                  position: relative;
+                  /* background-color: #f1f1f1; */
+                  min-width: 160px;
+                  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                  z-index: 1;
+
+                  position: static;
+                margin-top: 68px;
+                margin-left: -516px;
+                
+                }
+                
+                .dropdown-content a {
+                  color: rgb(218, 231, 220);
+                  padding: 12px 16px;
+                  text-decoration: none;
+                  display: block;
+                }
+                
+                .dropdown-content a:hover {background-color: rgb(41, 139, 65);}
+                
+                .dropdown:hover .dropdown-content {display: block;}
+                
+                .dropdown:hover .dropbtn {background-color: #3e8e41;}
+                </style>
+
+
+
+    
+    <div class="w3-container top">
+                <a class="w3schools-logo notranslate">SkillRary<span class="dotcom">.com</span></a>
+              </div>
+<div class="mt-4">
+<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+
+  
+    <div class="container-fluid">
+      <ul class="navbar-nav mr-auto">
+        <li><a href="#">C</a></li>
+        <li><a href="#">C++</a></li>
+        <li><a href="#">JAVA</a></li>
+        <li><a href="#">PYTHON2</a></li>
+        <li><a href="#">PHP</a></li>
+        <li><a href="#">RUBY</a></li>
+        <li><a href="#">Visual Basic.NET</a></li>&nbsp;&nbsp;
+
+
+        
+
+
+
+        
+
+        <!-- <li><a href="#">MORE</a></li> &nbsp; -->
+       <li> <div class="dropdown">
+                <a class="dropbtn btn-dark">More </a>
+                <div class="dropdown-content">
+                  <a href="#">PERL</a>
+                  <a href="#">FORTRAN</a>
+                  <a href="#">PYTHON</a>
+                  <a href="#">SCALA</a>
+                  <a href="#">COBOL</a>
+                  <a href="#">NODEJS</a>
+                  <a href="#">PASCAL</a>
+                  <a href="#">CLOJURE</a>
+                  <a href="#">KOTLIN</a>
+                  <a href="#">SMALLTALK</a>
+                  <a href="#">GROOVY</a>
+                  <a href="#">PIKE</a>
+                  <a href="#">RACKET</a>
+                  <a href="#">PROLOG</a>
+                  <a href="#">OCTAVE</a>
+                  <a href="#">COFFEESCRIPT</a>
+                  <a href="#">OBJECTIVE C</a>
+                  <a href="#">CLISP</a>
+                  <a href="#">ELIXR</a>
+                  <a href="#">LOLCODE</a>
+                  <a href="#">RUST</a>
+                  <a href="#">R</a>
+                  <a href="#">C#</a>
+                  <a href="#">F#</a>
+                </div>
+              </div></li>
+
+        
+        
+              <div id="mySidebar" class="sidebar" *ngIf="sidebar">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Clients</a>
+                <a href="#">Contact</a>
+              </div>
+              <li>
+             </li></ul></div>
+               
+           
+
+     
+    
+  
+
+
+</nav>
+</div>
+
+</body>
+
+</html>
+    
